@@ -1,0 +1,371 @@
+@media only screen and (max-width: 991px) {
+    
+    section {
+        .futuristic-content {
+            background-position: left 40% top 0px, left 40% top 300px;
+            .menu {
+                nav {
+                    position: relative;
+                    ul {
+                        max-height: 0px;
+                        flex-direction: column;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 100px;
+                        width: 40%;
+                        right: 0;
+                        background: black;
+                        transition: all 0.5s ease;
+                        z-index: 999;
+                        li {
+                            display: block;
+                            text-align: center;
+                            a {
+                                padding: 10px 0;
+                                display: block;
+                                &:hover {
+                                    background: #D44800;
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                    #menu {
+                        display: block;                    
+                    }
+                    .icon {
+                        .bar {
+                            background: #000 !important;
+                        }
+                        #bar1 {
+                            transform: translateY(5px) rotate(-45deg) !important;
+                        }
+                        #bar3 {
+                            transform: translateY(0) rotate(45deg) !important;
+                        }
+                        #bar2 {
+                            display: none;
+                        }
+                    }
+                    .try {
+                        margin-left: 175px;
+                    }
+                }
+            }
+            .futuristic {
+                margin-top: 50px;
+                .futuristic-flex {
+                    flex-direction: column-reverse;
+                    justify-content: center;
+
+                    .futuristic-spin {
+                        margin-top: 50px;
+                        h6 {
+                            line-height: 25px;
+                            span {
+                                margin-bottom: 4px;
+                            }
+                        }
+                        h5 {
+                            line-height: 15px;
+                        }
+                        h1 {
+                            line-height: 70px;
+                        }
+                        .btn-group {
+                            margin-top: 20px;
+                        }
+                    }
+                    .header-images {
+                        text-align: center;
+                        .img-1 {
+                            display: inherit;
+                            float: inherit;
+                            width: 275px;
+                            margin-left: 60%;
+                        }
+                        .img-2 {
+                            display: inherit;
+                            width: 220px;
+                            padding: 35px;
+                            margin-left: 38%;
+
+                        }
+                        .box {
+                            position: absolute;
+                            top: 35px;
+                            right: 30px;
+                            width: 280px;
+                            height: 310px;
+                        }
+                    }
+                }
+            }
+        }
+        .tilt {
+            margin-top: 50px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .head {
+        .contact {
+            .contact-1 {
+                p {
+                    font-size: 13px;
+                }
+            }        
+            .contact-2 {
+                text-align: left;
+                p {
+                    font-size: 13px;
+                }
+            }
+            .contact-3 {
+                text-align: left;
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    section {
+        .futuristic-content {
+            .futuristic {
+                .futuristic-flex {
+                    .futuristic-spin {
+                        margin-top: 50px;
+                        h6 {
+                            line-height: 25px;
+                            span {
+                                margin-bottom: 4px;
+                            }
+                        }
+                        h5 {
+                            line-height: 15px;
+                        }
+                        h1 {
+                            line-height: 70px;
+                        }
+                        .btn-group {
+                            margin-top: 20px;
+                        }
+                    }
+                    .header-images {
+                        text-align: center;
+                        .img-1 {
+                            display: inherit;
+                            float: inherit;
+                            width: 275px;
+                            margin-left: 46%;
+                        }
+                        .img-2 {
+                            display: inherit;
+                            width: 220px;
+                            padding: 35px;
+                            margin-left: 18%;
+    
+                        }
+                        .box {
+                            position: absolute;
+                            top: 35px;
+                            right: 30px;
+                            width: 280px;
+                            height: 310px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .overlay {
+            width: 100%;
+        }
+        .tilt {
+            .custom-shape-divider-bottom-1643539033 {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 580px) {
+    section {
+        .futuristic-content {
+            .menu {
+                nav {
+                    position: relative;
+                    .logo img {
+                        width: 40%;
+                    }
+                    ul {
+                        width: 100%;
+                        li {
+                            text-align: left;
+                            a {
+                                padding-left: 50px;
+                            }
+                        }
+                    }
+                    #menu {
+                        display: block;                    
+                    }
+                    .try {
+                        margin-left: 120px;
+                        font-size: 13px;
+                        padding: 3px 14px;
+                    }
+                }
+            }
+            .futuristic {
+                .futuristic-flex {
+                    .futuristic-spin {
+                        margin-top: 50px;
+                        h6 {
+                            font-size: 12px;
+                            span {
+                                margin-bottom: 4px;
+                            }
+                        }
+                        h5 {
+                            font-size: 20px;
+                        }
+                        h1 {
+                            line-height: 60px;
+                            font-size: 40px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                        .btn-group {
+                            margin-top: 20px;
+                            .btn {
+                                font-size: 13px;
+                                padding: 5px 20px;
+                            }
+                            .left {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                    .header-images {
+                        text-align: center;
+                        .img-1 {
+                            display: inline-block;
+                            float: right;
+                            width: 275px;
+                            padding: 25px;
+                        }
+                        .img-2 {
+                            display: inline-block;
+                            width: 220px;
+                            padding: 25px;
+                            margin-left: -130px;    
+                        }
+                        .box {
+                            position: absolute;
+                            top: 35px;
+                            right: 30px;
+                            width: 280px;
+                            height: 310px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .overlay {
+            width: 100%;
+        }
+        .tilt {
+            .custom-shape-divider-bottom-1643539033 {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        .futuristic-content {
+            .menu {
+                nav {
+                    position: relative;
+                    ul {
+                        width: 100%;
+                        li {
+                            text-align: left;
+                            a {
+                                padding-left: 50px;
+                            }
+                        }
+                    }
+                    #menu {
+                        display: block;                    
+                    }
+                    .try {
+                        margin-left: inherit;
+                    }
+                }
+            }
+            .futuristic {
+                .futuristic-flex {
+                    .futuristic-spin {
+                        margin-top: 50px;
+                        h6 {
+                            line-height: 25px;
+                            span {
+                                margin-bottom: 4px;
+                            }
+                        }
+                        h5 {
+                            line-height: 15px;
+                            font-size: 18px;
+                        }
+                        h1 {
+                            line-height: 70px;
+                            font-size: 36px;
+                        }
+                        .btn-group {
+                            margin-top: 20px;
+                        }
+                    }
+                    .header-images {
+                        text-align: center;
+                        .img-1 {
+                            display: inline-block;
+                            float: right;
+                            width: 240px;
+                        }
+                        .img-2 {
+                            display: inline-block;
+                            width: 200px;
+                            margin-left: -130px;    
+                        }
+                        .box {
+                            position: absolute;
+                            top: 35px;
+                            right: 30px;
+                            width: 240px;
+                            height: 270px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .overlay {
+            width: 100%;
+        }
+        .tilt {
+            .custom-shape-divider-bottom-1643539033 {
+                width: 100%;
+            }
+        }
+    }
+    
+}

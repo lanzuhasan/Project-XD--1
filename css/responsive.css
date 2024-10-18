@@ -1,0 +1,314 @@
+@media only screen and (max-width: 991px) {
+  section .futuristic-content {
+    background-position: left 40% top 0px, left 40% top 300px;
+  }
+  section .futuristic-content .menu nav {
+    position: relative;
+  }
+  section .futuristic-content .menu nav ul {
+    max-height: 0px;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    width: 40%;
+    right: 0;
+    background: black;
+    transition: all 0.5s ease;
+    z-index: 999;
+  }
+  section .futuristic-content .menu nav ul li {
+    display: block;
+    text-align: center;
+  }
+  section .futuristic-content .menu nav ul li a {
+    padding: 10px 0;
+    display: block;
+  }
+  section .futuristic-content .menu nav ul li a:hover {
+    background: #D44800;
+    color: #ffffff;
+  }
+  section .futuristic-content .menu nav #menu {
+    display: block;
+  }
+  section .futuristic-content .menu nav .icon .bar {
+    background: #000 !important;
+  }
+  section .futuristic-content .menu nav .icon #bar1 {
+    transform: translateY(5px) rotate(-45deg) !important;
+  }
+  section .futuristic-content .menu nav .icon #bar3 {
+    transform: translateY(0) rotate(45deg) !important;
+  }
+  section .futuristic-content .menu nav .icon #bar2 {
+    display: none;
+  }
+  section .futuristic-content .menu nav .try {
+    margin-left: 175px;
+  }
+  section .futuristic-content .futuristic {
+    margin-top: 50px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin {
+    margin-top: 50px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 {
+    line-height: 25px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 span {
+    margin-bottom: 4px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h5 {
+    line-height: 15px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h1 {
+    line-height: 70px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group {
+    margin-top: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images {
+    text-align: center;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-1 {
+    display: inherit;
+    float: inherit;
+    width: 275px;
+    margin-left: 60%;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-2 {
+    display: inherit;
+    width: 220px;
+    padding: 35px;
+    margin-left: 38%;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .box {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 280px;
+    height: 310px;
+  }
+  section .tilt {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .head .contact .contact-1 p {
+    font-size: 13px;
+  }
+  .head .contact .contact-2 {
+    text-align: left;
+  }
+  .head .contact .contact-2 p {
+    font-size: 13px;
+  }
+  .head .contact .contact-3 {
+    text-align: left;
+  }
+  .head .contact .contact-3 a {
+    font-size: 13px;
+  }
+
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin {
+    margin-top: 50px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 {
+    line-height: 25px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 span {
+    margin-bottom: 4px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h5 {
+    line-height: 15px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h1 {
+    line-height: 70px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group {
+    margin-top: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images {
+    text-align: center;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-1 {
+    display: inherit;
+    float: inherit;
+    width: 275px;
+    margin-left: 46%;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-2 {
+    display: inherit;
+    width: 220px;
+    padding: 35px;
+    margin-left: 18%;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .box {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 280px;
+    height: 310px;
+  }
+  section .overlay {
+    width: 100%;
+  }
+  section .tilt .custom-shape-divider-bottom-1643539033 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  section .futuristic-content .menu nav {
+    position: relative;
+  }
+  section .futuristic-content .menu nav .logo img {
+    width: 40%;
+  }
+  section .futuristic-content .menu nav ul {
+    width: 100%;
+  }
+  section .futuristic-content .menu nav ul li {
+    text-align: left;
+  }
+  section .futuristic-content .menu nav ul li a {
+    padding-left: 50px;
+  }
+  section .futuristic-content .menu nav #menu {
+    display: block;
+  }
+  section .futuristic-content .menu nav .try {
+    margin-left: 120px;
+    font-size: 13px;
+    padding: 3px 14px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin {
+    margin-top: 50px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 {
+    font-size: 12px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 span {
+    margin-bottom: 4px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h5 {
+    font-size: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h1 {
+    line-height: 60px;
+    font-size: 40px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin p {
+    font-size: 13px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group {
+    margin-top: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group .btn {
+    font-size: 13px;
+    padding: 5px 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group .left {
+    margin-left: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images {
+    text-align: center;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-1 {
+    display: inline-block;
+    float: right;
+    width: 275px;
+    padding: 25px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-2 {
+    display: inline-block;
+    width: 220px;
+    padding: 25px;
+    margin-left: -130px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .box {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 280px;
+    height: 310px;
+  }
+  section .overlay {
+    width: 100%;
+  }
+  section .tilt .custom-shape-divider-bottom-1643539033 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section .futuristic-content .menu nav {
+    position: relative;
+  }
+  section .futuristic-content .menu nav ul {
+    width: 100%;
+  }
+  section .futuristic-content .menu nav ul li {
+    text-align: left;
+  }
+  section .futuristic-content .menu nav ul li a {
+    padding-left: 50px;
+  }
+  section .futuristic-content .menu nav #menu {
+    display: block;
+  }
+  section .futuristic-content .menu nav .try {
+    margin-left: inherit;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin {
+    margin-top: 50px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 {
+    line-height: 25px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h6 span {
+    margin-bottom: 4px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h5 {
+    line-height: 15px;
+    font-size: 18px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin h1 {
+    line-height: 70px;
+    font-size: 36px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .futuristic-spin .btn-group {
+    margin-top: 20px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images {
+    text-align: center;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-1 {
+    display: inline-block;
+    float: right;
+    width: 240px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .img-2 {
+    display: inline-block;
+    width: 200px;
+    margin-left: -130px;
+  }
+  section .futuristic-content .futuristic .futuristic-flex .header-images .box {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 240px;
+    height: 270px;
+  }
+  section .overlay {
+    width: 100%;
+  }
+  section .tilt .custom-shape-divider-bottom-1643539033 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
